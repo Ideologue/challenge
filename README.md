@@ -35,7 +35,7 @@ curl --location --request GET 'http://localhost:8080/users'
 **Test update User**
 
 ```
-curl --location --request PUT 'http://localhost:8080/users/24' \
+curl --location --request PUT 'http://localhost:8080/users/1' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic dXNlcjpwYXNzd29yZA==' \
 --data-raw '{
